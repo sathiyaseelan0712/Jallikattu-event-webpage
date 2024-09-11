@@ -1,239 +1,276 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Registration</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Vegetable Farm Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+    <title>Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Vegetable Farm Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<!-- css links -->
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/typo.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/hoverex-all.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/inner.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/pogo-slider.min.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/caption-hover.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/circle-hover.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/slider.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- /css links -->
-<!-- font files -->
-<link href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-<!-- font files -->
-<!-- js files  -->
-<script src="js/SmoothScroll.min.js"></script>
-<script type="text/javascript" src="js/modernizr.custom.js"></script> 
-<!-- /js files -->
-	
-<!-- /validation -->	
+    <!-- css links -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/typo.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/hoverex-all.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/inner.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/pogo-slider.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/caption-hover.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/circle-hover.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/slider.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- /css links -->
+    <!-- font files -->
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet'
+        type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <!-- font files -->
+    <!-- js files  -->
+    <script src="js/SmoothScroll.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <script type="text/javascript">
+        function setEventPlace(place) {
+            document.getElementById('event_place').value = place;
+        }
+    </script>
+
+    <!-- /js files -->
+
+    <!-- /validation -->
 </head>
+
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-<!-- Fixed navbar -->
+    <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html"><b>TAMILNADU JALLIKATTU REGISTRATION</b></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="index.html">Home</a></li>
-				<li class="active"><a href="register.html">Registration</a></li>
-				<li><a href="gallery.html">Gallery</a></li>
-				<li ><a href="contact.html">Contact</a></li>
-				<li><a href="admin.php">Admin</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-<!-- /Fixed navbar -->
-<!-- banner section -->	
-<div class="pogoSlider" id="js-main-slider">
-	<div class="pogoSlider-slide" data-transition="barRevealDown" data-duration="1000"  style="background-image:url(images/jall_6.jpg);">
-		<div class="pogoSlider-slide-element">
-			<h3>The practice of Jallikattu, also known as Eruthazhuvuthal or Manju virattu</h3>
-		</div>
-	</div>
-	<div class="pogoSlider-slide" data-transition="blocksReveal" data-duration="1000" style="background-image:url(images/jall_2.jpg);">
-		<div class="pogoSlider-slide-element">
-			<h3>The term 'Jallikattu' originates from the Tamil words Salli and Kattu, referring to silver or gold coins tied to the bulls' horns</h3>
-		</div>
-	</div>
-	<div class="pogoSlider-slide" data-transition="barRevealDown" data-duration="1000" style="background-image:url(images/jall_5.jpg);">
-		<div class="pogoSlider-slide-element">
-			<h3>Jallikattu is believed to have been practiced at least 2,500 years ago</h3>
-		</div>
-	</div>
-	<div class="pogoSlider-slide" data-transition="blocksReveal" data-duration="1000"  style="background-image:url(images/jall_1.jpg);">
-		<div class="pogoSlider-slide-element">
-			<h3>Jallikattu is taming the bull</h3>
-		</div>
-	</div>
-</div>
-<!-- /banner section -->
-<!-- Contact -->
-<section class="contact-us" id="contact">
-	<h3 class="text-center slideanim">Jallikattu Registration</h3>
-	<p class="text-center slideanim">Online application for Jallikattu event</p>
-    <div class="content-section-a">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <div class="content1">
-                        <h3 class="section-heading slideanim">Apply For Avaniyapuram</h3>
-                        <hr class="section-heading-spacer slideanim">
-                        <div class="clearfix"></div>
-                        <p class="lead slideanim">Click here to apply for <a href="bull_form.html">Bull's registration</a><br></p>
-                      <p>  Click here to apply for <a href="tamer_form.html">Bull Tamer's registration</a></p>
-                   <p> <br>Click here : <a href="https://www.google.co.in/maps/place/AVANIYAPURAM+JALLIKATTU+VADIVASAL/@9.8449618,78.0554819,11.79z/data=!4m6!3m5!1s0x3b00c5a1e7f0eb37:0x873174c19f48ee33!8m2!3d9.8828126!4d78.1132027!16s%2Fg%2F11qh36q_8x?entry=ttu">Location</a></p>
-                        
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><b>TAMILNADU JALLIKATTU REGISTRATION</b></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="register.html">Registration</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="admin.php">Admin</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+    <!-- /Fixed navbar -->
+    <!-- banner section -->
+    <div class="pogoSlider" id="js-main-slider">
+        <div class="pogoSlider-slide" data-transition="barRevealDown" data-duration="1000"
+            style="background-image:url(images/jall_6.jpg);">
+            <div class="pogoSlider-slide-element">
+                <h3>The practice of Jallikattu, also known as Eruthazhuvuthal or Manju virattu</h3>
+            </div>
+        </div>
+        <div class="pogoSlider-slide" data-transition="blocksReveal" data-duration="1000"
+            style="background-image:url(images/jall_2.jpg);">
+            <div class="pogoSlider-slide-element">
+                <h3>The term 'Jallikattu' originates from the Tamil words Salli and Kattu, referring to silver or gold
+                    coins tied to the bulls' horns</h3>
+            </div>
+        </div>
+        <div class="pogoSlider-slide" data-transition="barRevealDown" data-duration="1000"
+            style="background-image:url(images/jall_5.jpg);">
+            <div class="pogoSlider-slide-element">
+                <h3>Jallikattu is believed to have been practiced at least 2,500 years ago</h3>
+            </div>
+        </div>
+        <div class="pogoSlider-slide" data-transition="blocksReveal" data-duration="1000"
+            style="background-image:url(images/jall_1.jpg);">
+            <div class="pogoSlider-slide-element">
+                <h3>Jallikattu is taming the bull</h3>
+            </div>
+        </div>
+    </div>
+    <!-- /banner section -->
+    <!-- Contact -->
+    <section class="contact-us" id="contact">
+        <h3 class="text-center slideanim">Jallikattu Registration</h3>
+        <p class="text-center slideanim">Online application for Jallikattu event</p>
+        <div class="content-section-a">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6">
+                        <div class="content1">
+                            <h3 class="section-heading slideanim">Apply For Avaniyapuram</h3>
+                            <hr class="section-heading-spacer slideanim">
+                            <div class="clearfix"></div>
+                            <p class="lead slideanim">
+                                Click here to apply for <a href="bull_form.html"
+                                    onclick="setEventPlace('Avaniyapuram')">Bull's registration</a><br>
+                            </p>
+                            <p>Click here to apply for <a href="tamer_form.html?eventPlace=Avaniyapuram">Bull Tamer's
+                                    registration</a></p>
+
+                            <p> <br>Click here : <a
+                                    href="https://www.google.co.in/maps/place/AVANIYAPURAM+JALLIKATTU+VADIVASAL/@9.8449618,78.0554819,11.79z/data=!4m6!3m5!1s0x3b00c5a1e7f0eb37:0x873174c19f48ee33!8m2!3d9.8828126!4d78.1132027!16s%2Fg%2F11qh36q_8x?entry=ttu">Location</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 col-sm-6 slideanim">
+                        <ul class="grid cs-style">
+                            <li>
+                                <figure>
+                                    <img src="images/avaniyapuram.png" alt="" class="img-responsive">
+                                    <figcaption>
+                                        <h3>How to apply</h3>
+                                        <a href="https://youtu.be/gMaEAmn4Vq4?si=r_dHpUAmhvlEQv4d">Read More</a>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6 slideanim">
-                    <ul class="grid cs-style">
-                        <li>
+            </div>
+        </div>
+        <div class="content-section-b">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+                        <div class="content2">
+                            <h3 class="section-heading slideanim">Apply For Palamedu</h3>
+                            <hr class="section-heading-spacer slideanim">
+                            <div class="clearfix"></div>
+                            <p class="lead slideanim">
+                                Click here to apply for <a href="bull_form.html"
+                                    onclick="setEventPlace('Palamedu')">Bull's registration</a><br>
+                            </p>
+                            <p>Click here to apply for <a href="tamer_form.html" onclick="setventPlace('Palamedu')">Bull
+                                    Tamer's registration</a><br>
+                            </p>
+                            <p>Click here : <a
+                                    href="https://www.google.co.in/maps/place/Palamedu,+Tamil+Nadu+625503/@10.1042734,78.1065809,16z/data=!3m1!4b1!4m6!3m5!1s0x3b00b9e51a2241bf:0x2766f26cfc3325d2!8m2!3d10.1043039!4d78.1129666!16zL20vMGY1eDFo?entry=ttu">Location</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-sm-pull-6 col-sm-6 slideanim">
+                        <ul class="grid cs-style">
+                            <li>
+                                <figure>
+                                    <img src="images/palamedu.png" alt="" class="img-responsive">
+                                    <figcaption>
+                                        <h3>How to apply</h3>
+                                        <a href="https://youtu.be/gMaEAmn4Vq4?si=r_dHpUAmhvlEQv4d">Read More</a>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-section-a">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6">
+                        <div class="content1">
+                            <h3 class="section-heading slideanim">Apply For Alanganallur</h3>
+                            <hr class="section-heading-spacer slideanim">
+                            <div class="clearfix"></div>
+                            <p class="lead slideanim">
+                                Click here to apply for <a href="bull_form.html"
+                                    onclick="setEventPlace('Alanganallur')">Bull's registration</a><br>
+                            </p>
+                            <p>Click here to apply for <a href="tamer_form.html"
+                                    onclick="setEventPlace('Alanganallur')">Bull Tamer's registration</a><br>
+                            </p><br>
+                            <br>Click here : <a
+                                href="https://www.google.co.in/maps/place/Alanganallur,+Tamil+Nadu+625501/@10.0474234,78.0800593,15z/data=!3m1!4b1!4m6!3m5!1s0x3b00b7de482bc41b:0xd0eec2b7f4c6d676!8m2!3d10.0474238!4d78.0903805!16zL20vMGRfemRw?entry=ttu">Location</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 col-sm-6 slideanim">
+                        <ul class="grid cs-style">
                             <figure>
-                                <img src="images/avaniyapuram.png" alt="" class="img-responsive">
+                                <img src="images/alangai.png" alt="" class="img-responsive">
                                 <figcaption>
                                     <h3>How to apply</h3>
                                     <a href="https://youtu.be/gMaEAmn4Vq4?si=r_dHpUAmhvlEQv4d">Read More</a>
                                 </figcaption>
                             </figure>
-                        </li>
-                    </ul> 
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-<div class="content-section-b">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
-				<div class="content2">
-					<h3 class="section-heading slideanim">Apply For Palamedu</h3>
-					<hr class="section-heading-spacer slideanim">
-					<div class="clearfix"></div>
-                    <p class="lead slideanim">Click here to apply for <a href="https://serviceonline.gov.in/tamilnadu/renderApplicationForm.do;jsessionid=2FFD0150555DDFB48403C616E8734B63?serviceId=7600008&UUID=efcd5a58-1bb7-49cb-8377-7d15d14cf5f0&directService=true&tempId=2487&grievDefined=0&serviceLinkRequired=No&userLoggedIn=N&source=CTZN&OWASP_CSRFTOKEN=YJRH-7E40-5N6V-FKWT-B0H7-KPXZ-0CUR-HRUA">Bull's registration</a><br></p>
-                    <p>Click here to apply for <a href="https://serviceonline.gov.in/tamilnadu/renderApplicationForm.do?serviceId=7550013&UUID=af091cc0-1344-481f-b1cd-a1a9899d565a&directService=true&tempId=2471&grievDefined=0&serviceLinkRequired=No&userLoggedIn=N&source=CTZN&OWASP_CSRFTOKEN=CADD-H91N-P2JN-SSPB-YKNJ-UFG1-T0RB-NI89">Bull Tamer's registration</a><br></p>
-                <p>Click here : <a href="https://www.google.co.in/maps/place/Palamedu,+Tamil+Nadu+625503/@10.1042734,78.1065809,16z/data=!3m1!4b1!4m6!3m5!1s0x3b00b9e51a2241bf:0x2766f26cfc3325d2!8m2!3d10.1043039!4d78.1129666!16zL20vMGY1eDFo?entry=ttu">Location</a></p>
-    </div>
-			</div>
-            <div class="col-lg-5 col-sm-pull-6 col-sm-6 slideanim">
-                <ul class="grid cs-style">
-                    <li>
-                        <figure>
-                            <img src="images/palamedu.png" alt="" class="img-responsive">
-                            <figcaption>
-                                <h3>How to apply</h3>
-                                <a href="https://youtu.be/gMaEAmn4Vq4?si=r_dHpUAmhvlEQv4d">Read More</a>
-                            </figcaption>
-                        </figure>
-                    </li>
-				</ul>
-            </div>
-        </div>
-	</div>
-</div>
-<div class="content-section-a">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5 col-sm-6">
-                <div class="content1">
-                    <h3 class="section-heading slideanim">Apply For Alanganallur</h3>
-                    <hr class="section-heading-spacer slideanim">
-                    <div class="clearfix"></div>
-                    <p class="lead slideanim">Click here to apply for <a href="https://serviceonline.gov.in/tamilnadu/renderApplicationForm.do;jsessionid=2FFD0150555DDFB48403C616E8734B63?serviceId=7600008&UUID=efcd5a58-1bb7-49cb-8377-7d15d14cf5f0&directService=true&tempId=2487&grievDefined=0&serviceLinkRequired=No&userLoggedIn=N&source=CTZN&OWASP_CSRFTOKEN=YJRH-7E40-5N6V-FKWT-B0H7-KPXZ-0CUR-HRUA">Bull's registration</a><br>
-                    Click here to apply for <a href="https://serviceonline.gov.in/tamilnadu/renderApplicationForm.do?serviceId=7550013&UUID=af091cc0-1344-481f-b1cd-a1a9899d565a&directService=true&tempId=2471&grievDefined=0&serviceLinkRequired=No&userLoggedIn=N&source=CTZN&OWASP_CSRFTOKEN=CADD-H91N-P2JN-SSPB-YKNJ-UFG1-T0RB-NI89">Bull Tamer's registration</a><br>
-                <br>Click here : <a href="https://www.google.co.in/maps/place/Alanganallur,+Tamil+Nadu+625501/@10.0474234,78.0800593,15z/data=!3m1!4b1!4m6!3m5!1s0x3b00b7de482bc41b:0xd0eec2b7f4c6d676!8m2!3d10.0474238!4d78.0903805!16zL20vMGRfemRw?entry=ttu">Location</a></p>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h4>Location</h4>
+                        <p>xxx<br>yyy, Chennai-600001</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h4>About Jallikattu</h4>
+                        <p>The ultimate goal is not the develope this website,we want develope <br>the jallaikattu event
+                            <br>all over the world
+                        </p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h4>Contact Us</h4>
+                        <p>Tamilnadu Government<br>Chennai-600001</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-5 col-lg-offset-2 col-sm-6 slideanim">
-                <ul class="grid cs-style">
-                    <figure>
-                        <img src="images/alangai.png" alt="" class="img-responsive">
-                        <figcaption>
-                            <h3>How to apply</h3>
-                            <a href="https://youtu.be/gMaEAmn4Vq4?si=r_dHpUAmhvlEQv4d">Read More</a>
-                        </figcaption>
-                    </figure>
-                </ul> 
-            </div>
         </div>
-    </div>
-</div>
-</section>
-<!-- Footer -->
-<footer class="text-center">
-    <div class="footer-above">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col col-md-4">
-                    <h4>Location</h4>
-                    <p>xxx<br>yyy, Chennai-600001</p>
-                	</div>
-                 <div class="footer-col col-md-4">
-                    <h4>About Jallikattu</h4>
-                    <p>The ultimate goal is not the develope this website,we want develope <br>the jallaikattu event <br>all over the world</p>
-                </div>
-				<div class="footer-col col-md-4">
-                    <h4>Contact Us</h4>
-                    <p>Tamilnadu Government<br>Chennai-600001</p>
-                	</div>
-            </div>
-        </div>
-	</div>
-   
-</footer><!-- js files -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/classie.js"></script>
-<script src="js/TweenMax.min.js"></script>
-<script src="js/index2.js"></script>
-<script src="js/jquery.pogo-slider.min.js"></script>
-<script src="js/main2.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
-  // Store hash
-  var hash = this.hash;
+    </footer><!-- js files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/index2.js"></script>
+    <script src="js/jquery.pogo-slider.min.js"></script>
+    <script src="js/main2.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
 
-  // Using jQuery's animate() method to add smooth page scroll
-  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-  $('html, body').animate({
-    scrollTop: $(hash).offset().top
-  }, 900, function(){
+                // Store hash
+                var hash = this.hash;
 
-    // Add hash (#) to URL when done scrolling (default click behavior)
-    window.location.hash = hash;
-    });
-  });
-})
-</script>
-<script>
-$(window).scroll(function() {
-  $(".slideanim").each(function(){
-    var pos = $(this).offset().top;
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 900, function () {
 
-    var winTop = $(window).scrollTop();
-    if (pos < winTop + 600) {
-      $(this).addClass("slide");
-    }
-  });
-});
-</script>
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            });
+        })
+    </script>
+    <script>
+        $(window).scroll(function () {
+            $(".slideanim").each(function () {
+                var pos = $(this).offset().top;
 
-<script src="js/retina-1.1.0.js"></script>
-<script src="js/jquery.hoverex.min.js"></script>
-<!-- /js files -->
+                var winTop = $(window).scrollTop();
+                if (pos < winTop + 600) {
+                    $(this).addClass("slide");
+                }
+            });
+        });
+    </script>
+
+    <script src="js/retina-1.1.0.js"></script>
+    <script src="js/jquery.hoverex.min.js"></script>
+    <!-- /js files -->
 </body>
+
 </html>

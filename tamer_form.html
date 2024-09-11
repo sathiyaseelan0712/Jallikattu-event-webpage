@@ -1,227 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Contact </title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Vegetable Farm Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+  <title>Tamer Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Vegetable Farm Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<!-- css links -->
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/typo.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/hoverex-all.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/inner.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/pogo-slider.min.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/caption-hover.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/circle-hover.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/slider.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- /css links -->
-<!-- font files -->
-<link href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-<!-- font files -->
-<!-- js files  -->
-<script src="js/SmoothScroll.min.js"></script>
-<script type="text/javascript" src="js/modernizr.custom.js"></script> 
+  <!-- css links -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/typo.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/hoverex-all.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/inner.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/pogo-slider.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/caption-hover.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/circle-hover.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/slider.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+  <!-- /css links -->
+  <!-- font files -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet'
+    type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <!-- font files -->
+  <!-- js files  -->
+  <script src="js/SmoothScroll.min.js"></script>
+  <script type="text/javascript" src="js/modernizr.custom.js"></script>
+  <script type="text/javascript">
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    window.onload = function() {
+      const eventPlace = getQueryParam('eventPlace');
+      if (eventPlace) {
+        document.getElementById('event_place').value = eventPlace;
+      }
+    }
+  </script>
 
 
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html"><b>TAMILNADU JALLIKATTU REGISTRATION</b></a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav navbar-right">
-                  <li><a href="index.html">Home</a></li>
-                  <li class="active"><a href="register.html">Registration</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                  <li ><a href="contact.html">Contact</a></li>
-                  <li><a href="admin.php">Admin</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="pogoSlider" id="js-main-slider">
-        <div class="pogoSlider-slide" data-transition="barRevealDown" data-duration="1000"  style="background-image:url(images/jall_6.jpg);">
-            <div class="pogoSlider-slide-element">
-                <h3>The practice of Jallikattu, also known as Eruthazhuvuthal or Manju virattu</h3>
-            </div>
-        </div>
-        <div class="pogoSlider-slide" data-transition="blocksReveal" data-duration="1000" style="background-image:url(images/jall_2.jpg);">
-            <div class="pogoSlider-slide-element">
-                <h3>The term 'Jallikattu' originates from the Tamil words Salli and Kattu, referring to silver or gold coins tied to the bulls' horns</h3>
-            </div>
-        </div>
-        <div class="pogoSlider-slide" data-transition="barRevealDown" data-duration="1000" style="background-image:url(images/jall_5.jpg);">
-            <div class="pogoSlider-slide-element">
-                <h3>Jallikattu is believed to have been practiced at least 2,500 years ago</h3>
-            </div>
-        </div>
-        <div class="pogoSlider-slide" data-transition="blocksReveal" data-duration="1000"  style="background-image:url(images/jall_1.jpg);">
-            <div class="pogoSlider-slide-element">
-                <h3>Jallikattu is taming the bull</h3>
-            </div>
-        </div>
-    </div>
-    <section class="contact-us" id="contact">
-        <h3 class="text-center slideanim">Jallikattu Bull Tamer's Registration Form </h3>
-        <h4 class="text-center slideanim">ஜல்லிக்கட்டு காளையை அடக்குபவர் பதிவு படிவம்</h4>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 slideanim">
-				<form action="tamerform.php" method="post" name="f">
-					<div class="row">
-						<div class="form-group col-lg-5">
-							<label>Bull Tamer Name / காளையை அடக்குபவர் பெயர் </label>
-							<input type="text" name="tamer_name" class="form-control" placeholder="" required>
-						</div>
-						<div class="form-group col-lg-4">
-							<label>E-Mail / மின்னஞ்சல்</label>
-							<input type="email" name="tamer_email" class="form-control" placeholder="" required>
-						</div>
-						<div class="form-group col-lg-3">
-							<label>Mobile Number / கைபேசி எண்</label>
-							<input type="number" name="tamer_phone" class="form-control" placeholder="" required>
-						</div>
-						<div class="clearfix"></div>
-						<div class="form-group col-lg-6">
-							<label>Full Address / முழு முகவரி</label>
-							<input type="text" name="tamer_address" class="form-control" rows="6" placeholder="" required>
-						</div>
-                        <div class="form-group col-lg-6">
-							<label>Aadhar Number / ஆதார் எண்</label>
-							<input type="number" name="tamer_aadhar" class="form-control" placeholder="" required>
-						</div>
-                        <div class="clearfix"></div>
-                        
-                        <div class="form-group col-lg-4">
-							<label>Weight(in kg) / எடை</label>
-							<input type="number" name="weight" class="form-control" placeholder="" required>
-						</div>
-						<div class="form-group col-lg-4">
-							<label>Height(in C.M) / உயரம்</label>
-							<input type="number" name="height" class="form-control" placeholder="" required>
-						</div>
-						<div class="form-group col-lg-4">
-							<label>Blood Group / இரத்த வகை </label>
-							<input type="text" name="blood" class="form-control" placeholder="" required>
-						</div>
-           <div class="clearfix"></div>
-                       
-            <div class="form-group col-lg-6">
-						<label>Emergency Contact Name / அவசரத் தொடர்பு நபரின் பெயர்</label>
-						<input type="text" name="emergency_name" class="form-control" placeholder="" required>
-						</div>
-            <div class="form-group col-lg-6">
-						<label>Emergency Contact Person Mobile Number / அவசரத் தொடர்பு நபரின் கைபேசி எண்</label>
-						<input type="number" name="emergency_number" class="form-control" rows="6" placeholder="" required>
-						</div>
-               <div class="clearfix"></div>
-               <h4>Attachments / இணைப்புகள்</h4>
-               <div class="form-group col-lg-6">
-							<label>Bull Tamer Aadhar Certificate / காளையை அடக்குபவரின் ஆதார் சான்று</label>
-							<input type="file" name="tamer_aadhar" class="form-control" placeholder="" required>
-						</div>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><b>TAMILNADU JALLIKATTU REGISTRATION</b></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="register.html">Registration</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="admin.php">Admin</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="pogoSlider" id="js-main-slider">
+    <div class="pogoSlider-slide" data-transition="barRevealDown" data-duration="1000"
+      style="background-image:url(images/jall_6.jpg);">
+      <div class="pogoSlider-slide-element">
+        <h3>The practice of Jallikattu, also known as Eruthazhuvuthal or Manju virattu</h3>
+      </div>
+    </div>
+    <div class="pogoSlider-slide" data-transition="blocksReveal" data-duration="1000"
+      style="background-image:url(images/jall_2.jpg);">
+      <div class="pogoSlider-slide-element">
+        <h3>The term 'Jallikattu' originates from the Tamil words Salli and Kattu, referring to silver or gold coins
+          tied to the bulls' horns</h3>
+      </div>
+    </div>
+    <div class="pogoSlider-slide" data-transition="barRevealDown" data-duration="1000"
+      style="background-image:url(images/jall_5.jpg);">
+      <div class="pogoSlider-slide-element">
+        <h3>Jallikattu is believed to have been practiced at least 2,500 years ago</h3>
+      </div>
+    </div>
+    <div class="pogoSlider-slide" data-transition="blocksReveal" data-duration="1000"
+      style="background-image:url(images/jall_1.jpg);">
+      <div class="pogoSlider-slide-element">
+        <h3>Jallikattu is taming the bull</h3>
+      </div>
+    </div>
+  </div>
+  <section class="contact-us" id="contact">
+    <h3 class="text-center slideanim">Jallikattu Bull Tamer's Registration Form </h3>
+    <h4 class="text-center slideanim">ஜல்லிக்கட்டு காளையை அடக்குபவர் பதிவு படிவம்</h4>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 slideanim">
+          <form action="http://localhost:5000/api/tamer/register" method="post" enctype="multipart/form-data">
+            <div class="row">
+              <input type="hidden" name="eventPlace" id="event_place" value="">
+              <div class="form-group col-lg-5">
+                <label>Bull Tamer Name / காளையை அடக்குபவர் பெயர் </label>
+                <input type="text" name="tamer_name" class="form-control" placeholder="" required>
+              </div>
+             
+              <div class="form-group col-lg-4">
+                <label>E-Mail / மின்னஞ்சல்</label>
+                <input type="email" name="tamer_email" class="form-control" placeholder="" required>
+              </div>
+              <div class="form-group col-lg-3">
+                <label>Mobile Number / கைபேசி எண்</label>
+                <input type="number" name="tamer_phone" class="form-control" placeholder="" required>
+              </div>
+              <div class="clearfix"></div>
               <div class="form-group col-lg-6">
-							<label>Bull Tamer Medical Certificate / காளையை அடக்குபவர் மருத்துவச் சான்றிதழ்</label>
-							<input type="file" name="tamer_medicial" class="form-control" placeholder="" required>
-						</div>
-                <div class="form-group col-lg-6">
-							<label>Bull Tamer Passport Size Photo / காளையை அடக்குபவரின் பாஸ்போர்ட் அளவு புகைப்படம்</label>
-							<input type="file" name="tamer_photo" class="form-control" placeholder="" required>
-						</div><div class="clearfix"></div>
-                <h4>Declaration</h4>
-                <label>1. Should not have recent injury/surgery/surgical scars.<br>
+                <label>Full Address / முழு முகவரி</label>
+                <input type="text" name="tamer_address" class="form-control" rows="6" placeholder="" required>
+              </div>
+              <div class="form-group col-lg-6">
+                <label>Aadhar Number / ஆதார் எண்</label>
+                <input type="number" name="tamer_aadhar" class="form-control" placeholder="" required>
+              </div>
+              <div class="clearf ix"></div>
+
+              <div class="form-group col-lg-4">
+                <label>Weight(in kg) / எடை</label>
+                <input type="number" name="weight" class="form-control" placeholder="" required>
+              </div>
+              <div class="form-group col-lg-4">
+                <label>Height(in C.M) / உயரம்</label>
+                <input type="number" name="height" class="form-control" placeholder="" required>
+              </div>
+              <div class="form-group col-lg-4">
+                <label>Blood Group / இரத்த வகை </label>
+                <input type="text" name="blood" class="form-control" placeholder="" required>
+              </div>
+              <div class="clearfix"></div>
+
+              <div class="form-group col-lg-6">
+                <label>Emergency Contact Name / அவசரத் தொடர்பு நபரின் பெயர்</label>
+                <input type="text" name="emergency_name" class="form-control" placeholder="" required>
+              </div>
+              <div class="form-group col-lg-6">
+                <label>Emergency Contact Person Mobile Number / அவசரத் தொடர்பு நபரின் கைபேசி எண்</label>
+                <input type="number" name="emergency_number" class="form-control" rows="6" placeholder="" required>
+              </div>
+              <div class="clearfix"></div>
+              <h4>Attachments / இணைப்புகள்</h4>
+              <div class="form-group col-lg-6">
+                <label>Bull Tamer Aadhar Certificate / காளையை அடக்குபவரின் ஆதார் சான்று</label>
+                <input type="file" name="aadhar_card_image" class="form-control" placeholder="" required>
+              </div>
+              <div class="form-group col-lg-6">
+                <label>Bull Tamer Medical Certificate / காளையை அடக்குபவர் மருத்துவச் சான்றிதழ்</label>
+                <input type="file" name="medical_certificate_image" class="form-control" placeholder="" required>
+              </div>
+              <div class="form-group col-lg-6">
+                <label>Bull Tamer Passport Size Photo / காளையை அடக்குபவரின் பாஸ்போர்ட் அளவு புகைப்படம்</label>
+                <input type="file" name="photo" class="form-control" accept=".jpg, .jpeg, .png" placeholder="" required>
+              </div>
+              <div class="clearfix"></div>
+              <h4>Declaration</h4>
+              <label>1. Should not have recent injury/surgery/surgical scars.<br>
                 2. Hypertensive patients on examinations are not allowed.<br>
                 3. Should have RTPCR negative report while coming to the Jallikattu event.<br>
-                4. Alcohol intake will be checked on the day of Jallikattu event through analyzer. If found to be under influence of alcohol, the applicant will be debarred</label>
-                <div class="form-group col-lg-4">
-                  <input type="reset" name="tamer_reset" onclick="val()" class="btn btn-lg btn-outline"/>
-             </div>
+                4. Alcohol intake will be checked on the day of Jallikattu event through analyzer. If found to be under
+                influence of alcohol, the applicant will be debarred</label>
               <div class="form-group col-lg-4">
-                  <input type="submit" name="tamer_submit" onclick="val()" class="btn btn-lg btn-outline"/>
-             </div>        
-                <div>
-						<input type="hidden" name="hid" />
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
-</section>	
-<footer class="text-center">
-    <div class="footer-above">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col col-md-4">
-                    <h4>Location</h4>
-                    <p>xxx<br>yyy, Chennai-600001</p>
-                	</div>
-                 <div class="footer-col col-md-4">
-                    <h4>About Jallikattu</h4>
-                    <p>The ultimate goal is not the develope this website,we want develope <br>the jallaikattu event <br>all over the world</p>
-                </div>
-				<div class="footer-col col-md-4">
-                    <h4>Contact Us</h4>
-                    <p>Tamilnadu Government<br>Chennai-600001</p>
-                	</div>
+                <input type="reset" name="tamer_reset" onclick="val()" class="btn btn-lg btn-outline" />
+              </div>
+              <div class="form-group col-lg-4">
+                <input type="submit" name="tamer_submit" onclick="val()" class="btn btn-lg btn-outline" />
+              </div>
+              <div>
+                <input type="hidden" name="hid" />
+              </div>
             </div>
+          </form>
         </div>
-	</div>
-   
-</footer><!-- js files -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/classie.js"></script>
-<script src="js/TweenMax.min.js"></script>
-<script src="js/index2.js"></script>
-<script src="js/jquery.pogo-slider.min.js"></script>
-<script src="js/main2.js"></script>
-<script>
-$(document).ready(function(){
-    // Add smooth scrolling to all links in navbar + footer link
-    $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-  
-    // Store hash
-    var hash = this.hash;
-  
-    // Using jQuery's animate() method to add smooth page scroll
-    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-    $('html, body').animate({
-      scrollTop: $(hash).offset().top
-    }, 900, function(){
-  
-      // Add hash (#) to URL when done scrolling (default click behavior)
-      window.location.hash = hash;
+      </div>
+    </div>
+  </section>
+  <footer class="text-center">
+    <div class="footer-above">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col col-md-4">
+            <h4>Location</h4>
+            <p>xxx<br>yyy, Chennai-600001</p>
+          </div>
+          <div class="footer-col col-md-4">
+            <h4>About Jallikattu</h4>
+            <p>The ultimate goal is not the develope this website,we want develope <br>the jallaikattu event <br>all
+              over the world</p>
+          </div>
+          <div class="footer-col col-md-4">
+            <h4>Contact Us</h4>
+            <p>Tamilnadu Government<br>Chennai-600001</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer><!-- js files -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/TweenMax.min.js"></script>
+  <script src="js/index2.js"></script>
+  <script src="js/jquery.pogo-slider.min.js"></script>
+  <script src="js/main2.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+        var hash = this.hash;
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function () {
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
       });
-    });
-  })
+    })
   </script>
   <script>
-  $(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
-  
-      var winTop = $(window).scrollTop();
-      if (pos < winTop + 600) {
-        $(this).addClass("slide");
-      }
+    $(window).scroll(function () {
+      $(".slideanim").each(function () {
+        var pos = $(this).offset().top;
+        var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+      });
     });
-  });
   </script>
 
-<script src="js/retina-1.1.0.js"></script>
-<script src="js/jquery.hoverex.min.js"></script>
-</body></html>
+  <script src="js/retina-1.1.0.js"></script>
+  <script src="js/jquery.hoverex.min.js"></script>
+</body>
+
+</html>
